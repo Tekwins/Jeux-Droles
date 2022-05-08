@@ -12,14 +12,17 @@ body {
 header {
   width: 100vw;
   position: fixed;
+  /* Le z-index permet au header de rester au dessus de l'alert*/
+  z-index: 3;
 }
 
-#text {
+/** Article général */
+article {
   margin-top: 56px;
   background-color: rgba(240, 248, 255, 0.8);
   box-shadow: 5px 10px 5px rgba(207, 207, 207, 0.582);
 }
-
+/** Fin d'article général */
 h1,
 h2 {
   text-align: center;
@@ -28,6 +31,7 @@ h2 {
 
 h3 {
   font-family: "Macondo Swash Caps", cursive;
+  margin-left: 5px;
 }
 
 p {
@@ -48,6 +52,8 @@ strong {
 em {
   color: rgb(0, 83, 0);
 }
+
+/** Blockquote */
 blockquote {
   margin: 0;
 }
@@ -71,3 +77,4 @@ figcaption {
   text-align: right;
   color: grey;
 }
+/** Fin de blockquote */
