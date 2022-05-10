@@ -2,7 +2,7 @@
 <html lang="fr">
   <head>
     <meta charset="UTF-8" />
-    <title>Jeux drôles - Les jeux de rôle, en plus fun !</title>
+    <title>Jeux drôles - Les jeux de rôle, en plus marrant !</title>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
@@ -74,7 +74,130 @@
     <div class="container-fluid" id="infos">
       <div class="row justify-content-md-center">
         <div class="col"></div>
-        <div class="col-md-10" id="text"></div>
+        <div class="col-md-6" id="text">
+          <article>
+            <h3>Nos prochains rendez-vous :</h3>
+            <p>
+              Sur cette page, vous retrouverez les lieux et dates de nos prochains rendez-vous,
+              ainsi que les potentielles information complémentaires afin d'arriver sur place prêt à
+              profiter avec nous !
+            </p>
+            <br />
+            <p>
+              <a
+                class="btn btn-warning"
+                data-bs-toggle="collapse"
+                href="#firstDate"
+                role="button"
+                aria-expanded="false"
+                aria-controls="firstDate"
+                >Toulon, les 21 et 22 Mai 2022</a
+              >
+              <br />
+              <br />
+              <button
+                class="btn btn-warning"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#secondDate"
+                aria-expanded="false"
+                aria-controls="secondDate"
+              >
+                Marseille, le 29 Mai 2022
+              </button>
+              <br />
+              <br />
+              <button
+                class="btn btn-success"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target=".multi-collapse"
+                aria-expanded="false"
+                aria-controls="firstDate secondDate"
+              >
+                Toutes les dates
+              </button>
+            </p>
+            <br />
+            <div class="row">
+              <div class="collapse multi-collapse" id="firstDate">
+                <div class="card card-body">
+                  <!--! Carte Bootstrap RDV-->
+                  <div class="card border-info" style="width: 500px">
+                    <!-- Map Place d'armes TOULON -->
+                    <div class="mapouter">
+                      <div class="gmap_canvas">
+                        <iframe
+                          width="500px"
+                          height="500px"
+                          id="gmap_canvas"
+                          src="https://maps.google.com/maps?q=place%20d'armes%20toulon&t=&z=17&ie=UTF8&iwloc=&output=embed"
+                          frameborder="0"
+                          scrolling="no"
+                          marginheight="0"
+                          marginwidth="0"
+                        ></iframe
+                        ><a href="https://2piratebay.org"></a><br /><a
+                          href="https://www.embedgooglemap.net"
+                          >embedded map</a
+                        >
+                      </div>
+                    </div>
+                    <!-- Fin map -->
+                    <div class="card-body">
+                      <h3 class="card-title">Initiation à la création de personnage</h3>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and make up the bulk of
+                        the card's content.
+                      </p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                  <!--! Fin de carte-->
+                </div>
+              </div>
+            </div>
+            <br />
+            <div class="col">
+              <div class="collapse multi-collapse" id="secondDate">
+                <div class="card card-body">
+                  <!--! Carte Bootstrap RDV-->
+                  <div class="card border-info" style="width: 500px">
+                    <!-- Map Place d'armes TOULON -->
+                    <div class="mapouter">
+                      <div class="gmap_canvas">
+                        <iframe
+                          width="500px"
+                          height="500px"
+                          id="gmap_canvas"
+                          src="https://maps.google.com/maps?q=place%20d'armes%20toulon&t=&z=17&ie=UTF8&iwloc=&output=embed"
+                          frameborder="0"
+                          scrolling="no"
+                          marginheight="0"
+                          marginwidth="0"
+                        ></iframe
+                        ><a href="https://2piratebay.org"></a><br /><a
+                          href="https://www.embedgooglemap.net"
+                          >embedded map</a
+                        >
+                      </div>
+                    </div>
+                    <!-- Fin map -->
+                    <div class="card-body">
+                      <h3 class="card-title">Initiation à la création de personnage</h3>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and make up the bulk of
+                        the card's content.
+                      </p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                  <!--! Fin de carte-->
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
         <div class="col"></div>
       </div>
     </div>

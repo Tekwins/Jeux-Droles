@@ -78,3 +78,17 @@ figcaption {
   color: grey;
 }
 /** Fin de blockquote */
+
+/* Map */
+.mapouter {
+  height: 500px;
+  width: 500px;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 99%;
+  width: 99%;
+}
+/* Fin map*/
