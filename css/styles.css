@@ -84,6 +84,20 @@ figcaption {
 /** Fin de blockquote */
 
 #planning {
-  margin: 5%;
+  margin-top: 1%;
   width: 50%;
+}
+
+.card-group {
+  width: 98%;
+  margin: auto;
+}
+
+.card-img-top {
+  height: 300px;
+}
+
+.offcanvas {
+  background-color: darkgray;
+  opacity: 90%;
 }
