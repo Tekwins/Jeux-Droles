@@ -11,9 +11,13 @@ body {
 
 header {
   width: 100vw;
-  position: fixed;
   /* Le z-index permet au header de rester au dessus de l'alert*/
   z-index: 3;
+}
+
+.alert {
+  position: sticky;
+  top: 5%;
 }
 
 /** Article général */
@@ -45,7 +49,7 @@ p {
 }
 
 strong {
-  color: darkgreen;
+  color: #006400;
   text-shadow: 1px 1px 1px black;
 }
 
@@ -79,16 +83,7 @@ figcaption {
 }
 /** Fin de blockquote */
 
-/* Map */
-.mapouter {
-  height: 500px;
-  width: 500px;
+#planning {
+  margin: 5%;
+  width: 50%;
 }
-
-.gmap_canvas {
-  overflow: hidden;
-  background: none !important;
-  height: 99%;
-  width: 99%;
-}
-/* Fin map*/
